@@ -1,0 +1,98 @@
+msg = 'Olá mundo!'
+print(msg)
+
+nome = input('Qual o seu nome !? ')
+print('É um prezer te conhecer', nome)
+
+Faça um programa que leia o nome de uma pesoa e mostre uma mensagem de boas vindas.
+
+
+n1 = int(input('Escreva um numero:'))
+n2 = int(input('Escreva um numero:'))
+s = n1+n2
+print('A soma entre {} e {} é {}'.format(n1,n2,s))
+
+Crie um programa que leia dois números e mostre a soma entre eles.
+
+* Se eu escrever as stings acima sem os tipos primitivos, o resulatdo vai ser a concatenção dos valores e não a soma.
+
+n1 = input( 'Digite algo:')
+print(type(n1))
+print('Só tem espços?', n1.isspace())
+print('É um numero?',n1.isnumeric())
+
+
+Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações posiveis sobre ele.
+ 
+ * Varios 'is' para sabermelhor oque foi escrito. 
+
+n1 = int(input('digite um numero:'))
+n2 = n1+1
+n3 = n1-1
+print('o numero sucessor de {} é {} e seu antecessor é {}'.format(n1,n2,n3))
+
+Faca um programa que leia um numero inteiro e mostre na tela o seu sucessor e seu antecessor.
+
+n = int(input('Digite um número:'))
+print('O dobro do numero {} é {} e seu triplo é {} e sua raiz quadrada é {}'.format((n),(n*2),(n*3),(n**(1/2))))
+
+Crie um algoristimo que leia o seu dobro. triplo e a sua raiz quadrada.
+
+
+n = float(input('Digite sua nota:'))
+n2 = float(input('Digite sua nota:'))
+print('A sua média é {:.1f}'.format((n+n2)/2))
+
+Desenvolva um programa que leia as duas notas de um aluno, Calcule e mostre sua media.
+
+n = float(input('Digite o numero em m:'))
+print('Seu numero em centimetro é {}cm. E em milimetros é {}mm.'.format((n*10),(n*100)))
+
+Escreva um programa que leia ele em metros e o exiba convertido em centimetros e milimetros.
+
+n = int(input('Digite um numero:'))
+print('-'*12)
+print('{} x {:2} = {}'.format(n,1,n*1))
+print('-'*12)
+
+Faça um programa que leia um numero inteiro qualquer e mostre na tela a sua tabuada.
+
+real = float(input('Quanto tem de dinheiro na carteira ?'))
+dolar = real/3.27
+print('voce pode comprar {:.2f} dolares'.format(dolar))
+
+crie um programa que mostre quanto dinheiro uma pessoa tem na carteira e mostre quanto ela pode gastar. concidere USS1.00=Rs3.27.
+
+ larg = float(input('largura da parede:'))
+ alt = float(input('Altura da parede:'))
+ area = larg * alt
+ print('sua parede tem a dimensao de {}x{} e sua area te a dimensao de {}m².'.format(larg,alt,area))
+ tinta = area / 2
+ print('para pintar essa parede, voce precisara de {} de tinta.'.format(tinta))
+
+Faça um programa que leia a largura e a altura de uma parede em metros, calcle a sua área e a quantidade de tinta necessaria para pinta-la, sabendo que cada litro de tinta, pinta uma area de 2m².
+
+n = float(input('Preco do produto: '))
+preco = n - (n*5 / 100)
+print = ('Preco do produto com desconto é {}'.format(preco))
+
+Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
+
+n = float(input('Salario: '))
+preco = n + (n * 15 / 100)
+print = ('Salario com aumento de 15% é {}'.format(preco))
+
+Faça um algoritmo que leia o sálario de um funcionario e mostre seu novo salario, com 15% de aumento.
+
+c =  float(input('informe a temperatura em °c: '))
+f = ((9 * c) / 5) + 32
+print('a temperatura de {} °c corresponde a {} °f'.format(c, f))
+
+um programa que converta uma temperatura digitada em °c converta para °f.
+
+n = float(input('quantos km ele percorreu ?'))
+n2 = int(input('por quantos dias ele foi alugado?'))
+pago = (n * 0,50) + (n2 * 60)
+print('o total a pagar é {:2}'.format(pago))
+
+escreva um programa que pergunte a quantidade de km percirridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. calcule o preço a pagar . sabendo que o carro custa 60 pila por dia e R$ 0,50 por km rodado
